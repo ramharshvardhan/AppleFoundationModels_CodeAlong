@@ -19,6 +19,8 @@ final class ItineraryGenerator {
     
     private(set) var itinerary: Itinerary.PartiallyGenerated?
     // streaming models
+    
+    // TEST
 
     init(landmark: Landmark) {
         self.landmark = landmark
